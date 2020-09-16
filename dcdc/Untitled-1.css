@@ -1,0 +1,189 @@
+html,body {
+    margin: 0;
+}
+a{
+    text-decoration: initial;
+    color: white;
+}
+header{
+    background-size: cover;
+    height: 70px;
+    width: 100%;
+    background-color:black ;
+    color: white;
+    position: fixed;
+    z-index: 10000;
+}
+#pp{
+    width:60px;
+    position: absolute;
+    top: 5px;
+    margin-left: 3%;
+}
+#jj{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+}
+.pip{
+    font-size: 25px;
+    color:white;
+    float:left;
+    padding: 10 20 10 20;
+}
+.pip:hover{
+    background-color:red;
+}
+.rr{
+    
+    margin-left:8%;
+}
+#ver{
+    position: absolute;
+    top:-15%;
+    color:white;
+}
+#col{
+    position: absolute;
+    top: 15%;
+    color:red;
+}
+.pao{
+    background: url("img/education-books.jpg");
+    text-align: center;
+    height: 100%;
+    font-size: 25px;
+    background-size: cover;
+}
+#title{
+   
+    position: relative;
+    top: 45%;
+}
+#subtitle{
+    
+    position: relative;
+    top: 50%;
+    
+}
+.content{
+    font-style: unset;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+.lwl{
+    font-style: oblique;
+}
+.poke{
+  
+    background-color: blue;
+    position: relative;
+    top: 50%
+}
+#he{
+    border-left: 180px solid blue;
+    border-right:180px solid yellow;
+    position: relative;
+    left:35%;
+    top: 55%;
+}
+
+#agua{
+ position: relative;
+    top: 345px;
+    
+ 
+} 
+#section{
+    float:left;
+}  
+.rest{
+   
+    padding:20px;
+    background-color: #f7f7f7f1;
+    float: left;
+}
+.coluna{
+    float: right;
+    padding:0 5%;
+    position: relative;
+    width: 35%;
+}
+.justificado{
+    text-align: justify;
+    
+}
+.jus{
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align:center;
+}
+.centralizado{
+    position: relative;
+    padding: 0 5%;
+    text-align: center;
+}
+#bb{
+    right: 15%;
+}
+
+.estilizado{
+    
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: lower-roman;
+    margin-right: 30%;
+    float: right;
+}
+.vai{
+    border:1px solid #0008b0;
+    background-color: cornflowerblue;
+}
+footer{
+    background-color: lightblue;
+    float: left;
+    width: 100%;
+}
+.tr{
+   margin-left:5%;
+    width: 40%;
+}
+.io{
+    text-align: center;
+    font-size: 50px;
+}
+@media all and (max-width: 768px){
+ #jj{
+     visibility: hidden;
+    }
+    .pao, .coluna, .poke, .tr, .coluninha, .inh{
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin:10px auto;
+        float:none;
+    } 
+    header{
+        background-size: cover;
+        height: 70px;
+        width: 100%;
+        background-color:black ;
+        color: white;
+        position: fixed;
+        z-index: 10000;
+    }
+    #agua{
+        visibility: hidden;
+    } .poke{
+        visibility: hidden;
+    }
+    #ppp{
+        margin-left: 11%;
+
+    }
+    header{
+        position: fixed;
+        top: -1%;
+    }
+}
